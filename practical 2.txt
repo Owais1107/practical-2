@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Semantic Elements Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        section {
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        article {
+            background: white;
+            margin: 10px 0;
+            padding: 15px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>My Website</h1>
+    <p>Learning HTML5 Semantic Elements</p>
+</header>
+
+<section>
+    <h2>Latest Articles</h2>
+
+    <article>
+        <h3>HTML5 Introduction</h3>
+        <p>HTML5 is the latest version of HTML. It introduces new semantic elements that improve the structure of web pages.</p>
+    </article>
+
+    <article>
+        <h3>Why Use Semantic Elements?</h3>
+        <p>Semantic elements like header, section, article, and footer make web pages more meaningful and accessible.</p>
+    </article>
+
+</section>
+
+<footer>
+    <p>&copy; 2026 My Website | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
